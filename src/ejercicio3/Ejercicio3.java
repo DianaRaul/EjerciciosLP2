@@ -22,6 +22,25 @@ public class Ejercicio3 {
             r=-1;
             JOptionPane.showMessageDialog(null,"Resultado "+r);
         }
+        else
+        {
+            int[] arreglo=new int[y];
+            arreglo[0]=x;
+            for (int i = 1;i<arreglo.length; i++) 
+            {
+               proceso=x/(i+1);
+               arreglo[i]=proceso;           
+            }
+            for (int i = 0; i < arreglo.length; i++) 
+            { 
+              if(i==(y-1))
+                {
+                    
+                    JOptionPane.showMessageDialog(null,"Resultado "+arreglo[i]);
+                }  
+            }
+        }
+    }
     
     
 }
