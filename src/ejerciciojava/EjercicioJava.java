@@ -16,6 +16,8 @@ public class EjercicioJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //Diana esto es una prueba
+        //Esto es otra prueba
         // TODO code application logic here
     }
     
