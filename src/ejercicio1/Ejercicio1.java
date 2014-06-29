@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package ejerciciojava;
+package ejercicio1;
 import javax.swing.JOptionPane;
 /**
  *
